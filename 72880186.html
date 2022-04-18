@@ -199,20 +199,19 @@ function calcularEdad(fn) {
 								document.write(capitalizarPrimeraLetra(fechalarga));
 								</script> 
                             </div>            
-				<hr style="border:none; border-top: #dedede solid 1px;">
                             <div class="aTxtBody2 aTxtBody2-Right">
                                 <img src="assets/map-marker-alt-solid.png" alt="Icono lugar vacuna" style="vertical-align: sub;">
                                 <script>document.write(d2_lugar);</script>
                             </div>
-				
+				<hr style="border:none; border-top: #dedede solid 1px;">
 			    <div class="aTxtBody2">
                             <img src="assets/arrow-alt-circle-right-regular.png" alt="Icono Dosis" style="vertical-align: sub;">
-                             1ª dosis</div>
+                             3ª dosis</div>
                             <div class="aTxtBody2 aTxtBody2-Right">
                                 <img src="assets/shield-alt-solid.png" alt="Icono fecha vacuna" style="vertical-align: sub;">
                                 
 								<script>
-								var fecha = new Date(d1_fecha);
+								var fecha = new Date(d3_fecha);
 								var options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
 								fechalarga = fecha.toLocaleDateString("es-PE", options);
 								
@@ -226,7 +225,7 @@ function calcularEdad(fn) {
                             </div>                            
                             <div class="aTxtBody2 aTxtBody2-Right">
                                 <img src="assets/map-marker-alt-solid.png" alt="Icono lugar vacuna" style="vertical-align: sub;">
-                                <script>document.write(d1_lugar);</script>
+                                <script>document.write(d3_lugar);</script>
                             </div>
 				
                         </div>
